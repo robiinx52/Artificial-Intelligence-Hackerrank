@@ -9,16 +9,16 @@ def SavePrincess(n,grid,r,c):
 	print(P)
 	print(r,'and',c)
 
-	rowDiff = P[0] - r
-	colDiff = P[1] - c
+	rowDiff = r- P[0]
+	colDiff = c - P[1]
 
 	nextmove = abs(rowDiff) - abs(colDiff)
 
 	if nextmove > 0 :
 		if rowDiff > 0 :
-			print('DOWN')
-		else :
 			print('UP')
+		else :
+			print('DOWN')
 
 	else :
 		if colDiff > 0 :
