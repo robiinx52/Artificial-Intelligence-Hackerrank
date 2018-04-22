@@ -13,10 +13,7 @@ def SavePrincess(n,grid):
 
 	rowDiff = P[0] - M[0]
 	colDiff = P[1] - M[1]
-	print(P)
-	print(M)
-	print(rowDiff)
-	print(colDiff)
+
 
 	if rowDiff > 0 :
 		for _ in range(abs(rowDiff)):
