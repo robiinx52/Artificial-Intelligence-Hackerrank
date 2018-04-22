@@ -6,8 +6,7 @@ def SavePrincess(n,grid,r,c):
 				P.append(i)
 				P.append(j)
 
-	print(P)
-	print(r,'and',c)
+
 
 	rowDiff = r- P[0]
 	colDiff = c - P[1]
