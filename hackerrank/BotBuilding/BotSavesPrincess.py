@@ -24,10 +24,10 @@ def SavePrincess(n,grid):
 
 	if colDiff > 0 :
 		for _ in range(abs(colDiff)):
-			print('LEFT')
+			print('RIGHT')
 	else :
 		for _ in range(abs(colDiff)):
-			print('RIGHT')
+			print('LEFT')
 
 m = int(input())
 grid = []
